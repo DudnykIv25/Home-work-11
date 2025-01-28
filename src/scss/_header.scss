@@ -1,0 +1,72 @@
+
+.header {
+    background-color: $--secondary-color;
+}
+
+.header .container {
+    padding-block: 0 141px;
+}
+//////////////////////////////////////////////////////
+.description__about_par {
+    font-size: 16px;
+    color: $--main-text-color;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    max-width: 540px;
+}
+
+.description__title {
+    padding-top: 80px;
+    padding-bottom: 60px;
+    font-size: 48px;
+    font-weight: 500;
+    margin: 0;
+}
+///////////////////////////////////////////////////////
+
+
+
+.navbar__list {
+    margin-block: 0;
+    padding-inline: 0;
+    padding-block: 80px;
+    display: flex;
+    gap: 42px;
+}
+
+.navbar__item {
+    list-style-type: none;
+}
+
+.navbar__item a {
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: $--text-letter-spacing;
+}
+
+.navbar__item a:hover {
+    color: $--main-color;
+}
+// /////////////////////////////////////////////////////////
+.description__about {
+    margin: 0;
+    padding-bottom: 65px;
+}
+
+.description__button {
+    margin-top: 65px;
+    width: 225px;
+    height: 65px;
+    background: $--main-color;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 164%;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+// /////////////////////////////////////////////////////////
+
